@@ -1,0 +1,72 @@
+.Electric {
+    width: 100%;
+    height: 800px;
+    margin-top: 20px;
+    background-image: url("../../assets/img/main.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Electric .center {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.Electric .center h2.title {
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.Electric .center button {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-top: 25px;
+    background: #FF4A32;
+    border-radius: 35px;
+}
+/* boosted */
+.boosted{
+    width: 100%;
+    margin-top: 50px;
+}
+.boosted .foto{
+    text-align: left;
+}
+.boosted .foto img{
+    margin: 0px 10px;
+}
+.boosted .right{
+    text-align: left;
+}
+.boosted .right h2.title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.boosted .right p.text{
+    text-align: left;
+}
+.boosted .right button{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-top: 25px;   
+    background: #FF4A32;
+    border-radius: 35px;
+}
+@media(max-width: 900px){
+    .boosted .foto img{
+        width: 100%;
+    }
+    .boosted .right{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .boosted .right h2.title{
+        text-align: center;
+    }
+    .boosted .right p.text{
+        text-align: center;
+    }
+}

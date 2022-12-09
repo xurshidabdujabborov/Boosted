@@ -1,0 +1,28 @@
+main{
+    width: 100%;
+    margin-top: 60px;
+}
+h2.title{
+    text-align: center;
+    margin-bottom: 17px;
+}
+main .box{
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+}
+main .box .card{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+main .box .card h3{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 12px;
+}
+main .box .card p.text{
+    color: white;
+}

@@ -1,0 +1,20 @@
+.Black{
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+    padding: 50px 0px;
+}
+.Black .box{
+    text-align: center;
+}
+.Black .box h4{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: white;
+    margin-top: 5px;
+}
+.Black .box p.text{
+    color: white;
+    margin-top: 25px;
+}

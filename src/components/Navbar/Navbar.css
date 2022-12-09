@@ -1,0 +1,60 @@
+nav{
+    width: 100%;
+    background-color: black;
+}
+nav p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}    
+/* nav_center */
+.nav_center{
+    width: 100%;
+    padding: 22px 0px;
+    background-color: white;
+}
+.nav_center .logo{
+    text-align: left;
+}
+.nav_center ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_center ul li{
+    margin: 0px 15px;
+}
+.nav_center ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1px;
+    color: black;
+}
+.nav_center .icon{
+    display: flex;
+    justify-content: right;
+}
+.nav_center .icon .css-i4bv87-MuiSvgIcon-root{
+    margin: 0px 8px;
+    color: #555;
+}
+@media(max-width: 900px){
+    .nav_center ul{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .nav_center ul li{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .nav_center .icon{
+        justify-content: left;
+        margin-top: 20px;
+    }
+}
